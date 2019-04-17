@@ -4,8 +4,36 @@ author: "morgsbrew"
 date: '2019-04-17'
 ---
 
-```{r}
+```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
+## Load frequently used packages for blog posts
+if (!require("knitcitations")) {
+   install.packages("knitcitations")
+   library(knitcitations)
+}
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("BiocStyle", version = "3.8")
 
+if (!require("BiocStyle")) {
+   install.packages("BiocStyle")
+   library(BiocStyle)
+}
+
+if (!require("devtools")) {
+   install.packages("devtools")
+   library(devtools)
+}
+
+## Load knitcitations with a clean bibliography
+cleanbib()
+cite_options(hyperlink = 'to.doc', citation_format = 'text', style = 'html')
+
+bib <- c(
+    'BiocStyle' = citation('BiocStyle'),
+    'blogdown' = citation('blogdown')[2],
+    'devtools' = citation('devtools'),
+    'knitcitations' = citation('knitcitations')
+)
 ```
 
 
@@ -77,4 +105,29 @@ It would be great to have the actual use cases mapped on a world map or just Afr
 # Discuassion
 
 # Conclusion
+
+# Acknowledgements
+
+
+This blog post was made possible thanks to:
+
+* `r Biocpkg('BiocStyle')` `r citep(bib[['BiocStyle']])`
+* `r CRANpkg('blogdown')` `r citep(bib[['blogdown']])`
+* `r CRANpkg('devtools')` `r citep(bib[['devtools']])`
+* `r CRANpkg('knitcitations')` `r citep(bib[['knitcitations']])`
+
+# References
+
+```{r bibliography, results = 'asis', echo = FALSE, cache = FALSE}
+## Print bibliography
+bibliography(style = 'html')
+```
+
+# Reproducibility
+
+```{r reproducibility, echo = FALSE}
+## Reproducibility info
+options(width = 120)
+session_info()
+```
 
