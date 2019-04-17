@@ -58,7 +58,20 @@ In an attempt to 'see' the Mageu I will prepare a slide and view it under my dis
 ## Literature sources
 
 Finding peer reviewed scientific literature has completely changed since I first started my Academic path in 2007. I remember when Google Scholar was still taboo and it has now become my main/ only way to interact with the internet. If I encounter any paywalls I will do the responsible thing by coluding with the Russians.
- 
+
+## Tweet analysis
+
+### Use case over time
+
+In this section someone will have to add some basic tweet analytics which gathers the number of # mentions over the time preiod 2016 - present. 
+
+  x = time
+  y = number of mentions
+
+### Use case by location
+
+It would be great to have the actual use cases mapped on a world map or just Africa if more relevant.
+
 # Results
 
 # Discuassion
