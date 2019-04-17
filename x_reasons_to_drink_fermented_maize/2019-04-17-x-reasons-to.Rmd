@@ -1,0 +1,67 @@
+---
+title: "x reasons to drink fermented maize"
+author: "morgsbrew"
+date: '2019-04-17'
+---
+
+```{r}
+
+```
+
+
+# Introduction
+
+In this post I am going to get in to the bits and pieces of why I love Mageu. I have decided to use this as my first topic in this new format because it allows for the easy separation of different sections which can then be brought together using a range of tools. 
+
+## Background 
+
+Mageu is a traditional African drink made from rotten (fermented) maize. The drink has strong cultural roots and is enjoyed by millions of South Africans daily. I first encountered the drink when researching various traditional Zulu ferments. I brought this term to Besta (my Zulu Mom) simply asking if she had herd of this stuff called "Ma-gggggggg-ewu". Her response was full of joy because she was about to teach me about this stuff. Way back in 2016 we made our first batch and what a Love story it has been ever since.
+
+## Current Knowlege
+
+My current knowledge of Mageu consists of several discussions with various people over the past three years. To summarize this I would simply say that Mageu is a fermented beverage that has high numbers of bacteria associated with lactic acid fermentation (**Lactobacillus**). There is likely a low percentage of alcohol in mild brews and higher in the stronger (more time and more sugar). The highest I would guess in the average brew would be less than 1 % ABV. Mageu is a good probiotic for people 
+
+## Gaps in the knowledge
+
+The main gaps I would like to close are the specific communities found in Mageu and what is the actual alcoholic content of an average brew? Other things to consider are what the possible impacts of Mageu might be for people with:
+
+  * "Gluten intolerance"
+  * IBS
+  * Diabetics
+
+## Aims and Objectives
+
+The primary aim of this post is going to be merging some kind of scientific method and knowledge about Mageu into a movie.
+
+The Objectives are to (1) explain the cultural history of Mageu, (2) explore its' structure and interactions with the holobiont, (3) interact with it in some scientific way, and (4) create a story in the process
+
+# Materials and methods
+
+## Video audio and editing
+
+* Samsung WB350F
+* DJI Mavic Pro
+* GoPro Hero 5 Session
+* MacBook Pro
+* iPhone 5S
+* Final Cut Pro X
+* Rode Smartlav+ 
+
+## Visual inspection
+
+In an attempt to 'see' the Mageu I will prepare a slide and view it under my dissecting microscope at 16x and 40x magnification. It is unlikely that I will see anything but this is the most I can do for magnification.
+
+## Growth measurments
+
+50 mL centrifuge tubes sealed with balloons will be the culture vessels used to asses basic growth rates under low, medium or high sugar concentrations. 
+
+## Literature sources
+
+Finding peer reviewed scientific literature has completely changed since I first started my Academic path in 2007. I remember when Google Scholar was still taboo and it has now become my main/ only way to interact with the internet. If I encounter any paywalls I will do the responsible thing by coluding with the Russians.
+ 
+# Results
+
+# Discuassion
+
+# Conclusion
+
