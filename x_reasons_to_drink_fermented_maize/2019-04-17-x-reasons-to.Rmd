@@ -22,7 +22,7 @@ output:
 > Let's start with a short introduction. Explain briefly what this document is going to talk about. May be add a [useful link](https://github.com/holtzy/epuRate) relative to this project.
 
 
-# Get the data
+# Load the libraries
 ***
 Always start by loading *libraries*. The [tidyverse](https://www.tidyverse.org) is probably the package I use the most. Quite difficult to imagine analysing data without it. It is a good practice to load all the packages in the same time. It allows to know exactly what is needed to reproduce your analysis.
 ```{r setup, echo = FALSE, message=FALSE, warning=FALSE}
