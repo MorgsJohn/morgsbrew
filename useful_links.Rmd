@@ -16,4 +16,5 @@ This is an R Markdown format used for publishing markdown documents to GitHub. W
 ### Help in the CHANNEL
 
 * https://blog.hootsuite.com/launch-youtube-channel-14-days/ 
+* https://backlinko.com/hub/youtube/optimize
 
