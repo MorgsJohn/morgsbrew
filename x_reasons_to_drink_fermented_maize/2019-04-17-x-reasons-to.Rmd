@@ -1,31 +1,47 @@
 ---
 title: "x reasons to drink fermented maize"
-author: "morgsbrew"
-date: '2019-04-17'
+author: "[Morgs Brew](https://github.com/MorgsBrew)"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+mail: "morgsbrew@freshrots.co.za"
+twitter: "MorgsBrew"
+github: "MorgsBrew"
+home: "www.freshrots.co.za"
+# !!! You need to provide a logo image here !!! Or just delete the field for no logo
+logo: "logo.png"
+# !!! Use -> output: github_document <- to change the output
+output:
+  epuRate::epurate:
+    toc: TRUE
+    number_sections: FALSE
+    code_folding: "hide"
 ---
 
-```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
-## Load frequently used packages for blog posts
-if (!require("knitcitations")) {
-   install.packages("knitcitations")
-   library(knitcitations)
-}
-if (!requireNamespace("BiocManager", quietly = TRUE))
-    install.packages("BiocManager")
-BiocManager::install("BiocStyle", version = "3.8")
 
-if (!require("BiocStyle")) {
-   install.packages("BiocStyle")
-   library(BiocStyle)
-}
+<br><br>
 
-if (!require("devtools")) {
-   install.packages("devtools")
-   library(devtools)
-}
+> Let's start with a short introduction. Explain briefly what this document is going to talk about. May be add a [useful link](https://github.com/holtzy/epuRate) relative to this project.
+
+
+# Get the data
+***
+Always start by loading *libraries*. The [tidyverse](https://www.tidyverse.org) is probably the package I use the most. Quite difficult to imagine analysing data without it. It is a good practice to load all the packages in the same time. It allows to know exactly what is needed to reproduce your analysis.
+```{r setup, echo = FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(rmarkdown)    # You need this library to run this template.
+library(epuRate)      # Install with devtools: install_github("holtzy/epuRate", force=TRUE)
+library(BiocStyle)
+library(knitcitations)
+library(devtools)
+
+# Use this function for installing
+#if (!require("devtools")) {
+#   install.packages("devtools")
+#   library(devtools)
+#}
 ```
 
-```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
+
+```{r bib, echo = FALSE, message = FALSE, warning = FALSE}
 ## Load knitcitations with a clean bibliography
 cleanbib()
 cite_options(hyperlink = 'to.doc', citation_format = 'text', style = 'html')

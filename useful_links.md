@@ -1,4 +1,4 @@
-Untitled
+useful\_links
 ================
 
 GitHub Documents
@@ -12,3 +12,21 @@ Some Useful links
 ### Help in the CHANNEL
 
 -   <https://blog.hootsuite.com/launch-youtube-channel-14-days/>
+-   <https://backlinko.com/hub/youtube/optimize>
+
+### RMarkdown editing
+
+-   <https://github.com/holtzy/Pimp-my-rmd/blob/master/index.Rmd>
+-   <https://github.com/tgirke/reproducible/blob/master/sample.Rmd>~
+-   <https://bookdown.org/yihui/rmarkdown/>
+-   <https://rmarkdown.rstudio.com/flexdashboard/>
+-   <https://cran.r-project.org/web/packages/workflowr/vignettes/wflow-04-how-it-works.html>
+-   
+
+### R Packages
+
+``` r
+# https://github.com/rstudio/rticles
+install.packages("rticles")
+install.packages("learnr")
+```

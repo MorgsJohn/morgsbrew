@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "useful_links"
 output: github_document
 ---
 
@@ -17,4 +17,23 @@ This is an R Markdown format used for publishing markdown documents to GitHub. W
 
 * https://blog.hootsuite.com/launch-youtube-channel-14-days/ 
 * https://backlinko.com/hub/youtube/optimize
+
+### RMarkdown editing
+
+* https://github.com/holtzy/Pimp-my-rmd/blob/master/index.Rmd
+* https://github.com/tgirke/reproducible/blob/master/sample.Rmd~
+* https://bookdown.org/yihui/rmarkdown/
+* https://rmarkdown.rstudio.com/flexdashboard/
+* https://cran.r-project.org/web/packages/workflowr/vignettes/wflow-04-how-it-works.html
+* 
+
+
+### R Packages 
+
+```{r, eval=FALSE}
+# https://github.com/rstudio/rticles
+install.packages("rticles")
+install.packages("learnr")
+```
+
 
