@@ -1,0 +1,37 @@
+---
+title: "song_list"
+author: "Morgan Brand"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output: github_document
+---
+# Songs 
+
+## Up Above
+https://www.audiolibrary.com.co/pyrosion/up-above?utm_source=youtube&utm_campaign=Up%20Above%20by%20Pyrosion&utm_content=link2
+```{r}
+Up Above by Pyrosion https://soundcloud.com/pyrosion
+Creative Commons — Attribution-ShareAlike 3.0 Unported  — CC BY-SA 3.0 
+http://creativecommons.org/licenses/b...
+Music promoted by Audio Library https://youtu.be/mikXltmStnc
+```
+
+## Funk City
+https://www.audiolibrary.com.co/reatch/funk-city
+```{r}
+Funk City by Reatch https://soundcloud.com/reatch
+Creative Commons — Attribution 3.0 Unported— CC BY 3.0 
+http://creativecommons.org/licenses/b...
+Music promoted by Audio Library https://youtu.be/J5JZNdb50B8
+```
+
+## JPB - High
+https://www.audiolibrary.com.co/jpb/high-ncs-release
+```{r}
+JPB - High [NCS Release] https://youtu.be/Tv6WImqSuxA
+https://soundcloud.com/jpb
+https://www.facebook.com/jayprodbeatz
+https://twitter.com/gtaanis
+Music provided by NoCopyrightSounds 
+Music promoted by Audio Library https://youtu.be/R8ZRCXy5vhA
+```
+

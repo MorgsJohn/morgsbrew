@@ -8,24 +8,24 @@ github: "MorgsBrew"
 home: "www.freshrots.co.za"
 # !!! You need to provide a logo image here !!! Or just delete the field for no logo
 logo: "logo.png"
-# !!! Use -> output: github_document <- to change the output
-output:
-  epuRate::epurate:
-    toc: TRUE
-    number_sections: FALSE
-    code_folding: "hide"
+output: github_document 
+# !!! Use -> output: <- to change the output 
+# !!!  epuRate::epurate:
+# !!!    toc: TRUE
+# !!!    number_sections: FALSE
+# !!!    code_folding: "hide"
 ---
 
 
 <br><br>
 
-> Let's start with a short introduction. Explain briefly what this document is going to talk about. May be add a [useful link](https://github.com/holtzy/epuRate) relative to this project.
-
+> I am looking for a way to setup potential collaboration with people through content I will be creating on YouTube. This repository is intended to be an open channel for collaborations through my YouTube creations. Find the repository in my Github: [Youtube_Colab](https://github.com/MorgsBrew/Youtube_Colab). Follow me on [Youtube](https://www.youtube.com/channel/UCIby2YRaGNjqEv4mbJ-URlQ?view_as=subscriber) 
 
 # Load the libraries
 ***
-Always start by loading *libraries*. The [tidyverse](https://www.tidyverse.org) is probably the package I use the most. Quite difficult to imagine analysing data without it. It is a good practice to load all the packages in the same time. It allows to know exactly what is needed to reproduce your analysis.
-```{r setup, echo = FALSE, message=FALSE, warning=FALSE}
+I always start by loading *libraries*. The [tidyverse](https://www.tidyverse.org) is probably the package I use the most. There are other random tools I have found which I know how to apply and like to use.
+
+```{r setup, echo = TRUE, message=FALSE, warning=FALSE}
 library(tidyverse)
 library(rmarkdown)    # You need this library to run this template.
 library(epuRate)      # Install with devtools: install_github("holtzy/epuRate", force=TRUE)
@@ -41,7 +41,7 @@ library(devtools)
 ```
 
 
-```{r bib, echo = FALSE, message = FALSE, warning = FALSE}
+```{r bib, echo = TRUE, message = FALSE, warning = FALSE}
 ## Load knitcitations with a clean bibliography
 cleanbib()
 cite_options(hyperlink = 'to.doc', citation_format = 'text', style = 'html')
@@ -83,6 +83,15 @@ The Objectives are to (1) explain the cultural history of Mageu and the recepie 
 
 # Materials and methods
 
+## Naming the post
+
+When it comes to naming youtube videos there are certain conventions that work better than others. Some great examples of the most successful searches which seem to be inline with my thingking are:
+
+* Do it yourself (DIY)
+* How to ...
+* x Reasons why ...
+* x Ways to
+
 ## Mageu Recipe 
 
 This is made in the same way that Bestas mom showed her. She calls it Zulu Maas
@@ -98,7 +107,7 @@ The ingredients are:
 
 Once the meal is thick, the pot is placed in the sink surrounded by cold water to cool. Once cool the meal is sieved to remove lumps. 5 tbs of sugar are then added to this and stirred in. The beaker is covered and left standing for 1 - 2 days to allow fermentation to begin. Once ready it is put into the fridge where is is consumed like a cold drink or pored over porridge like a Zulu Mass
 
-###Shot list ideas
+### Shot list ideas
 
 * Pot boiling
 * Sieving the mageu

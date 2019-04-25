@@ -25,9 +25,14 @@ This is an R Markdown format used for publishing markdown documents to GitHub. W
 * https://bookdown.org/yihui/rmarkdown/
 * https://rmarkdown.rstudio.com/flexdashboard/
 * https://cran.r-project.org/web/packages/workflowr/vignettes/wflow-04-how-it-works.html
+* https://buildmedia.readthedocs.org/media/pdf/reproducible-analysis-workshop/latest/reproducible-analysis-workshop.pdf 
 * 
 
 ### GIT
+
+https://github.com/MorgsBrew/Youtube_Colab/blob/master/x_reasons_to_drink_fermented_maize/2019-04-17-x-reasons-to.html
+
+https://rawgit.com/MorgsBrew/Youtube_Colab/master/x_reasons_to_drink_fermented_maize/2019-04-17-x-reasons-to.html
 
 ```{r}
 git remote set-url origin https://github.com/MorgsBrew/Youtube_Colab.git
