@@ -1,18 +1,42 @@
 x reasons to drink fermented maize
 ================
-[Morgs Brew](https://github.com/MorgsBrew)
-25 April 2019
 
-<br><br>
+> I am looking for a way to setup potential collaboration with people through content I will be creating on YouTube. This repository is intended to be an open channel for collaborations through my YouTube creations. Find the repository in my Github: [Youtube\_Colab](https://github.com/MorgsBrew/Youtube_Colab). Follow me on [Youtube](https://www.youtube.com/channel/UCIby2YRaGNjqEv4mbJ-URlQ?view_as=subscriber)
 
-> I am looking for a way to setup potential collaboration with people through content I will be creating on YouTube. This repository is intended to be an open channel for collaborations through my YouTube creations. Find the repository in my Github: [Youtube\_Colab](https://github.com/MorgsBrew/Youtube_Colab). Follow me on [Youtube Channel](https://www.youtube.com/channel/UCIby2YRaGNjqEv4mbJ-URlQ?view_as=subscriber)
+------------------------------------------------------------------------
 
 Load the libraries
 ==================
 
-------------------------------------------------------------------------
+I always start by loading *libraries*. The [tidyverse](https://www.tidyverse.org) is probably the package I use the most. There are other random tools I have found which I know how to apply and like to use.
 
-Always start by loading *libraries*. The [tidyverse](https://www.tidyverse.org) is probably the package I use the most. Quite difficult to imagine analysing data without it. It is a good practice to load all the packages in the same time. It allows to know exactly what is needed to reproduce your analysis.
+``` r
+library(tidyverse)
+library(rmarkdown)    # You need this library to run this template.
+library(epuRate)      # Install with devtools: install_github("holtzy/epuRate", force=TRUE)
+library(BiocStyle)
+library(knitcitations)
+library(devtools)
+
+# Use this function for installing
+#if (!require("devtools")) {
+#   install.packages("devtools")
+#   library(devtools)
+#}
+```
+
+``` r
+## Load knitcitations with a clean bibliography
+cleanbib()
+cite_options(hyperlink = 'to.doc', citation_format = 'text', style = 'html')
+
+bib <- c(
+    'BiocStyle' = citation('BiocStyle'),
+    'blogdown' = citation('blogdown')[2],
+    'devtools' = citation('devtools'),
+    'knitcitations' = citation('knitcitations')
+)
+```
 
 Introduction
 ============
@@ -47,6 +71,18 @@ The Objectives are to (1) explain the cultural history of Mageu and the recepie 
 
 Materials and methods
 =====================
+
+Naming the post
+---------------
+
+When it comes to naming youtube videos there are certain conventions that work better than others. Some great examples of the most successful searches which seem to be inline with my thingking for this video are:
+
+-   Do it yourself (DIY)
+-   How to ...
+-   x Reasons why ...
+-   x Ways to
+
+The most "relevant" naming conventions for this post, after comparisons were made between them and Aims, I have decided to go with "x Reasons why ...". This naming strategy is intended to improve search applicability and enhance the chance of more views.
 
 Mageu Recipe
 ------------
@@ -106,22 +142,38 @@ Tweet analysis
 
 ### Hashtag MAGEU usage frequency
 
-#### Time
-
-#### Location
-
-### Use case over time
+#### Use case over time
 
 In this section someone will have to add some basic tweet analytic which gathers the number of \# mentions over the time period 2016 - present.
 
 x = time y = number of mentions
 
-### Use case by location
+#### Use case by location
 
 It would be great to have the actual use cases mapped on a world map or just Africa if more relevant.
 
 Results
 =======
+
+Naming this post
+----------------
+
+Mageu recipe
+------------
+
+Scientific "interaction" with Mageu
+-----------------------------------
+
+### Visual inspection
+
+### Growth measuments
+
+Hashtag (\#) Mageu Tweet analysis
+---------------------------------
+
+### Use case by time
+
+### Use case by location
 
 Discuassion
 ===========
