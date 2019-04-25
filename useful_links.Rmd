@@ -27,6 +27,12 @@ This is an R Markdown format used for publishing markdown documents to GitHub. W
 * https://cran.r-project.org/web/packages/workflowr/vignettes/wflow-04-how-it-works.html
 * 
 
+### GIT
+
+```{r}
+git remote set-url origin https://github.com/MorgsBrew/Youtube_Colab.git
+```
+
 
 ### R Packages 
 
