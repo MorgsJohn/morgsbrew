@@ -85,12 +85,14 @@ The Objectives are to (1) explain the cultural history of Mageu and the recepie 
 
 ## Naming the post
 
-When it comes to naming youtube videos there are certain conventions that work better than others. Some great examples of the most successful searches which seem to be inline with my thingking are:
+When it comes to naming youtube videos there are certain conventions that work better than others. Some great examples of the most successful searches which seem to be inline with my thingking for this video are:
 
 * Do it yourself (DIY)
 * How to ...
 * x Reasons why ...
 * x Ways to
+
+The most "relevant" naming conventions for this post, after comparisons were made between them and Aims, I have decided to go with "x Reasons why ...". This naming strategy is intended to improve search applicability and enhance the chance of more views.
 
 ## Mageu Recipe 
 
@@ -145,25 +147,34 @@ Finding peer reviewed scientific literature has completely changed since I first
 
 ### Hashtag MAGEU usage frequency 
 
-#### Time
-
-#### Location
-
-
-
-
-### Use case over time
+#### Use case over time
 
 In this section someone will have to add some basic tweet analytic which gathers the number of # mentions over the time period 2016 - present. 
 
   x = time
   y = number of mentions
 
-### Use case by location
+#### Use case by location
 
 It would be great to have the actual use cases mapped on a world map or just Africa if more relevant.
 
 # Results
+
+## Naming this post
+
+## Mageu recipe
+
+## Scientific "interaction" with Mageu
+
+### Visual inspection
+
+### Growth measuments
+
+## Hashtag (#) Mageu Tweet analysis
+
+### Use case by time
+
+### Use case by location
 
 # Discuassion
 
